@@ -10,3 +10,4 @@ for launch a new party type this command :
 ```javascript
 newGame();
 ```
+> Code in development /!\
