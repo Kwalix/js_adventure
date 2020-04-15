@@ -12,11 +12,6 @@ class Monster {
         this.atk = atk;
         this.health = health;
     }
-    atkPlayer() {
-        Player.healt -= this.atk;
-        alert(this.name + 'causes ' + this.atk + ' of damage');
-        alert('You still have ' + Player.health + ' of health');
-    }
 }
 
 function newGame() {
