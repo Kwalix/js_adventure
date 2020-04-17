@@ -1,5 +1,5 @@
 class Player {
-    constructor(name, atk, health) {
+    constructor (name, atk, health) {
         this.name = name;
         this.atk = atk;
         this.health = health;
@@ -7,14 +7,14 @@ class Player {
 }
 
 class Monster {
-    constructor(name,atk, health) {
+    constructor (name, atk, health) {
         this.name = name;
         this.atk = atk;
         this.health = health;
     }
 }
 
-function newGame() {
+function newGame () {
     let youName = prompt('Choose your character name');
     const you = new Player(youName, 50, 50);
     const monster = new Monster('troll', 25, 100);
@@ -51,8 +51,7 @@ function newGame() {
             break;
         }
     }
-    if (window.confirm('play again ?'))
-    {
+    if (window.confirm('play again ?')) {
         newGame();
     }
     alert('Thanks for playing: p\n Developed by kwalix <3');
